@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color: #183b56;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5rem;
+    color: #577592;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.head{
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+    background-color: #4fb3d4;
+    background-image: url("assets/asset\ 32.png");
+    background-size: 360px;
+}
+.container{
+    padding-top: 1rem;
+}
+.nav-bar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem 0;
+}
+.nav-bar img{
+    height: 30px;
+    width: 160px;
+}
+.nav-bar .test{
+    text-align: center;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.2rem;
+    background-color: #ebf2fa;
+    margin-left: 0.5rem;
+    padding-top: 0.2rem;
+}
+.nav-bar .logo{
+    display: flex;
+}
+.nav-bar .ops{
+    margin-left: 15rem;
+    width: 65%;
+    display: flex;
+}
+.ops i{
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+.ops p,button{
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ops button{
+    height: 46px;
+    padding:12px 24px;
+    font-weight: bold;
+    border-radius: 0.2rem;
+
+}
+.ops .signin{
+    background-color: white;
+    border: 1px solid lightblue;
+    color: #183b56;
+
+}
+.ops .signup{
+    background-color: #2294ed;
+    border: none;
+    color: white;
+}
+.signin:hover{
+    border:1px solid #2294ed;
+    color: #2294ed;
+}
+.signup:hover{
+    background-color:#0061ad;
+}
+.ops p:hover{
+    color: #2294ed;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-section .text{
+    width: 50%;
+    padding: 1.5rem 5rem 0;
+    margin-top: 8rem;
+}
+.get-start{
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color:#2294ed ;
+}
+.get-start:hover{
+    background-color: #0061ad;
+}
+.pic{
+    width: 50%;
+    margin-right: 5rem;
+    padding: 1.5rem 5rem 0;
+    background-image:url("assets/asset\ 2.jpeg");
+    background-size: cover;
+}
+.mesg
+{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.company{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+.features{
+    text-align: center;
+    margin: 8rem 0;
+}
+.btns{
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid lightblue ;
+    border-radius: 0.2rem;
+}
+.btns:hover{
+    border:1px solid #2294ed;
+    color: #2294ed;
+}
+.features .feat{
+    height: 212px;
+    width: 317px;
+}
+.featboxes{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2.5;
+    padding: 3rem 0 3rem 0;
+}
+.featboxes button{
+    margin-top: 2rem;
+}
+.feat .featpic{
+    height: 3rem;
+    width: 3rem;
+}
+.description {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pics{
+    padding: 1.5rem 5rem 0;
+}
+.pics img{
+    height: 500px;
+    width: 500px;
+}
+.desc{
+    padding-left: 8rem;
+    width: 45%;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 2;
+}
+.desc .chart{
+    margin: 1.5rem 0 ;
+    height: 2rem;
+    width: 6rem;
+}
+.person{
+    display: flex;
+    height: 48px;
+    margin-top: 1.5rem;
+} 
+.person .info{
+    margin-left: 1rem;
+
+}
+.examples{
+    position: relative;
+}
+.examples .example-text{
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+.examples .example-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.examples .ex{
+
+    height: 300px;
+    width: 260px;
+    display: flex;
+    align-items: flex-end;
+}
+.ex img{
+    height:100%;
+    width: 100%;
+}
+.ex-data{
+    width: 260px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    position:absolute;
+    margin: 0.5rem 1rem;
+}
+.ex:hover{
+    box-shadow: 0 0 1rem black;
+}
+.foot-panel1{
+    height: 600px;
+    margin-top: 5rem;
+    padding: 3rem ;
+    background-color: #183b54;
+    line-height: 2;
+    display: flex;
+
+    
+}
+.foot-text p,ul{
+    width: 490px;
+
+    color:#b9cde4;
+
+}
+.foot-text h2{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+.foot-text h4{
+    color: white;
+    font-size: 1rem;
+    margin: 2rem 0 1rem;
+}
+.foot-text .lists{
+    margin: 0 0 2rem 1.5rem ;
+    display: flex;
+}
+.lists .l{
+    width: 300px;
+
+}
+.learn {
+    background-color:#183b54 ; 
+    color:#b9cde4;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    border: 1px solid lightblue ;
+    border-radius: 0.2rem;
+}
+.learn:hover{
+    color:#2294ed;
+
+}
+.panel{
+    padding: 0.75rem 1.5rem;
+    background-color: #2294ed;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+.panel:hover{
+    background-color: #0061ad;
+}
+.foot-pic img{
+    height: 600px;
+    width: 700px;
+    padding-bottom: 3rem;
+    position: relative;
+    
+}
+.foot-panel2{
+    background-color: #ebf2fa;
+    display: flex;
+    padding: 5rem 5rem;
+}
+.foot-panel2 img{
+    height: 2rem;
+    width: 10rem;
+}
+.link-clmn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    color: black;
+}
+
+.link-clmn p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: black;
+}
+.hover-link{
+    color: black;
+    opacity: 0.6;
+}
+.hover-link:hover{
+    color: #2294ed;
+}
+.foot-panel4{
+    height: 60px;
+    background-color: #b9cde4;
+    display: flex;
+    justify-content: center;
+}
+.foot-panel4 a{
+    margin: 1rem;
+}
+.foot-panel4 img{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 1rem 1rem 0;
+}
+.foot-panel3{
+    height: 260px;
+    margin: 7rem 0 3.75rem;
+    text-align: center;
+}
+.foot-panel3 h2{
+    margin-bottom: 3rem;
+}
